@@ -1,0 +1,38 @@
+body{
+  overflow: auto;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 20px ;
+  height: auto;
+  width: 600px;
+  list-style: none;
+  box-shadow: 10px 10px rgb(127, 123, 123);
+}
+
+li{
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#change{
+  color: brown;
+}
